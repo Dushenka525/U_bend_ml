@@ -1,0 +1,5 @@
+defaults:
+- data: ubend_3888
+- model: gpr
+- train: train_v1
+

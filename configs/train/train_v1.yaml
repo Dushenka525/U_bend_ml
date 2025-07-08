@@ -1,0 +1,5 @@
+train_data_path: data/processed/train_ubend_gen_v4.csv
+val_data_path: data/processed/val_ubend_gen_v4.csv
+normalized_data_path: data/processed/norm_ubend_gen_v4.csv
+experiment_name: train_baselines
+model_info_dir: models/baseline
