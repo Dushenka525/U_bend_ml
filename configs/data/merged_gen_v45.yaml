@@ -1,0 +1,15 @@
+raw_data_path: data/raw/merged_gen.csv
+params_ranges:
+  B4toD4: [0.005,0.02, 0.1]
+  B5toB4: [1.0,1.25, 1.5]
+  R45toB4: [0.9,2.5, 5.0]
+  omega5: [-5.0,0.0, 5.0]
+  gammaU: [-0.5,0.0, 0.5]
+  alpha4: [10.0,20.0,30.0,40.0,50.0,60.0]
+  RE: [100000, 500000]
+normalized_data_path: data/processed/norm_merged_gen.csv
+train_data_path: data/processed/train_merged_gen.csv
+val_data_path: data/processed/val_merged_gen.csv
+test_data_path: data/processed/test_merged_gen.csv
+val_size: 0.20
+test_size: 0.20

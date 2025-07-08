@@ -1,0 +1,26 @@
+register_model_name: GPr_QBC
+model_info_dir: models
+query_strategy_type: qbc
+model_type: gpr
+model_params:
+  regressors_params:
+  - input_dim: 7
+    kernel_type: RBF
+    optimizer: Adam
+    lr: 0.05
+  - input_dim: 7
+    kernel_type: Matern
+    nu: 1.5
+    optimizer: Adam
+    lr: 0.05
+  - input_dim: 7
+    kernel_type: Matern
+    nu: 2.5
+    optimizer: Adam
+    lr: 0.05
+n_start_points: 11
+estimation_step: 70
+experiment_name: gpr_qbc1
+
+
+

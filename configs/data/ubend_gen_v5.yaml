@@ -1,0 +1,14 @@
+raw_data_path: data/raw/ubend_gen_v5.csv
+params_ranges:
+  B4TOD4: [0.005, 0.1]
+  B5TOB4: [1.0, 1.5]
+  R45TOB4: [0.9, 5.0]
+  OMEGA5: [-5.0, 5.0]
+  GAMMAU: [-0.5, 0.5]
+  ALPHA4: [10.0, 60.0]
+  RE: [100000, 500000]
+normalized_data_path: data/processed/norm_merge_gen_v5.csv
+train_data_path: data/processed/train_merge_gen_v5.csv
+test_data_path: data/processed/test_merge_gen_v5.csv
+val_size: 0.20
+test_size: 0.20
